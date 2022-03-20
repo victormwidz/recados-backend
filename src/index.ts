@@ -37,13 +37,10 @@ var recados = [
     }
 ]
 
-// CRUD -> create, read, update, delete
-
 // buscar todos
 app.get('/recados', (req: Request, res: Response) => {
     return res.json(recados);
 });
-
 
 // cadastrar
 app.post('/recados', (req: Request, res: Response) => {

@@ -57,9 +57,8 @@ var recados = [
         detalhamento: 'teste 3',
     }
 ];
-// CRUD -> create, read, update, delete
 // buscar todos
-app.get('/recados/:id', (req, res) => {
+app.get('/recados', (req, res) => {
     return res.json(recados);
 });
 // cadastrar
