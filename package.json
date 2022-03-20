@@ -13,7 +13,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./dist",
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
   },
   "dependencies": {
     "@types/cors": "^2.8.12",
