@@ -59,7 +59,7 @@ var recados = [
 ];
 // CRUD -> create, read, update, delete
 // buscar todos
-app.get('/recados', (req, res) => {
+app.get('/recados/:id', (req, res) => {
     return res.json(recados);
 });
 // cadastrar
