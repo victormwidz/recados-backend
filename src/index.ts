@@ -2,11 +2,12 @@ import express, { Request, response, Response, RequestHandler } from 'express';
 import cors from 'cors';
 
 const app = express();
-const port = process.env.PORT || 8080;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
+
+const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
     console.log('API está rodando...');
