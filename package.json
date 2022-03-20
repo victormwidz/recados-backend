@@ -19,5 +19,5 @@
     "build": "tsc",
     "start": "node ./dist",
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
-  }yar
+  }
 }
